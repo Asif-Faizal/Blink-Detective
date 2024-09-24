@@ -30,7 +30,8 @@ In your AndroidManifest.xml, add the following permissions:
 <uses-permission android:name="android.permission.CAMERA"/>
 ```
 
-##iOS
+## iOS
+
 In your Info.plist, add the following:
 ```plist
 <key>NSCameraUsageDescription</key>
@@ -39,9 +40,9 @@ In your Info.plist, add the following:
 
 Run flutter pub get to install the dependencies.
 
-#Usage
+# Usage
 
-##Initialization
+## Initialization
 
 You need to initialize the FaceCameraController with a specified CameraLensDirection, such as front or back:
 
