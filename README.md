@@ -33,7 +33,7 @@ In your `AndroidManifest.xml`, add the following permissions:
 ## iOS
 
 In your `Info.plist`, add the following:
-```plist
+```py
 <key>NSCameraUsageDescription</key>
 <string>We need access to your camera for face detection</string>
 ```
