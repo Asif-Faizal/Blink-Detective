@@ -25,20 +25,20 @@ dependencies:
 ### Also, ensure you have enabled the appropriate camera permissions in your AndroidManifest.xml and Info.plist files:
 
 ## Android
-In your AndroidManifest.xml, add the following permissions:
+In your `AndroidManifest.xml`, add the following permissions:
 ```xml
 <uses-permission android:name="android.permission.CAMERA"/>
 ```
 
 ## iOS
 
-In your Info.plist, add the following:
+In your `Info.plist`, add the following:
 ```plist
 <key>NSCameraUsageDescription</key>
 <string>We need access to your camera for face detection</string>
 ```
 
-Run flutter pub get to install the dependencies.
+Run `flutter pub get` to install the dependencies.
 
 # Usage
 
