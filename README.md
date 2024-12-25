@@ -19,8 +19,8 @@ Before using this package, make sure you have the following dependencies in your
 dependencies:
   flutter:
     sdk: flutter
-  camera: ^0.10.0+4
-  google_ml_kit: ^0.10.0+1
+  camera: ^0.11.0+2
+  google_ml_kit: ^0.19.0
 ```
 ### Also, ensure you have enabled the appropriate camera permissions in your AndroidManifest.xml and Info.plist files:
 
